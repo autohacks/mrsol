@@ -1,0 +1,263 @@
+@import url('css.css');
+
+body {
+    background: url(../image/bg.jpg) center/cover no-repeat fixed;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.links
+{
+    display: none;
+}
+.username
+{
+        filter:blur(4px);
+        -o-filter:blur(4px);
+        -ms-filter:blur(4px);
+        -moz-filter:blur(4px);
+        -webkit-filter:blur(4px);
+}
+
+.logo {
+    max-height: 20vh;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hack {
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);
+    background: linear-gradient(to bottom, #434343, #000000);
+    color: #ffffff;
+    border-radius: 0.5rem;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    font-family: 'PT Sans', sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.status-header {
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    text-transform: none !important;
+    background-color: #fff;
+    color: #434343 !important;
+    margin: 0 -14px 0.5rem -15px !important;
+    border-bottom: 2px solid #434343;
+    border-left: 2px solid rgba(67, 67, 67, 0.5);
+    border-right: 2px solid rgba(67, 67, 67, 0.5);
+}
+
+.hack-header {
+    margin: 0 -14px 0 -15px !important;
+    padding-top: 0.25rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-left: 2px solid rgba(67, 67, 67, 0.5);
+    border-top: 2px solid rgba(67, 67, 67, 0.5);
+    border-right: 2px solid rgba(67, 67, 67, 0.5);
+    border-bottom: 1px solid rgba(67, 67, 67, 0.5);
+    background-color: #ffffff;
+    color: #434343;
+}
+
+.hack-generator {
+    font-size: 1.3rem !important;
+    color: #fff;
+    font-weight: 400 !important;
+}
+
+.recent-header {
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    text-transform: none !important;
+    font-size: 1.25rem !important;
+}
+
+/*.status-header {
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    text-transform: none !important;
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+}*/
+
+.recent {
+    background-color: #ffffff;
+    color: #434343;
+    opacity: 0.9;
+    border-radius: 0.5rem;
+    border: 2px solid rgba(67, 67, 67, 0.75);
+    display: none;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    margin-top: -0.5rem !important;
+}
+
+.form-control {
+    text-align: center !important;
+    font-weight: 700 !important;
+}
+
+p {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.end, .ehh, .h-v {
+    display: none;
+}
+
+.fab, .fas {
+    cursor: pointer;
+    font-size: 3.6rem !important;
+    opacity: 0.8;
+    margin-bottom: 0.5rem !important;
+    transition-duration: 0.5s;
+}
+
+.f-username {
+    font-size: 1.7rem !important;
+    margin-top: -0.5rem !important;
+    text-transform: none !important;
+}
+
+.i-gems {
+    background-image: url(../image/gems-240.png);
+}
+
+.i-gold {
+    background-image: url(https://offinder.live/grabcodes.co/onlyfans/gold-240.html);
+}
+
+.i-gems, .i-gold {
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'PT Sans', sans-serif !important;
+    font-weight: 700;
+    background-color: #434343 !important;
+    border: 0;
+    color: white !important;
+    text-align: left !important;
+    padding-left: 3.5rem !important;
+}
+
+.final-img {
+    max-width: 100%;
+}
+
+.p-m {
+    cursor: pointer;
+    border: 0;
+    color: #000 !important;
+    background-color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 1.8rem !important;
+    padding: 0 1rem !important;
+}
+
+h3 {
+    font-size: 1.4rem !important;
+}
+
+.btn-c {
+    font-weight: 700 !important;
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.status-img {
+    margin-bottom: 3px;
+    max-height: 20px;
+}
+
+red {
+    font-size: 1.4rem !important;
+    color: red !important;
+}
+
+.typed-cursor {
+    display: none !important;
+}
+
+.btn-l {
+    margin-bottom: 0.5rem !important;
+}
+
+@media (min-width: 576px) {
+    h4 {
+        font-size: 1.65rem !important;
+    }
+    .status-header {
+        font-size: 1.25rem !important;
+    }
+    .recent-header {
+        font-size: 1.35rem !important;
+    }
+    p {
+        font-size: 1.15rem !important;
+    }
+    .fab, .fas {
+        font-size: 4rem !important;
+    }
+    .btn-c {
+        font-size: 1.75rem !important;
+    }
+    .#username {
+        font-size: 1.15rem !important;
+    }
+    .f-username {
+        font-size: 1.9rem !important;
+    }
+    .hack-generator {
+        font-size: 1.4rem !important;
+    }
+    .final-img {
+        max-width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .btn-c {
+        margin-bottom: 0.5rem;
+        font-size: 1.85rem !important;
+    }
+    h4 {
+        font-size: 1.8rem !important;
+    }
+    .status-header {
+        font-size: 1.35rem !important;
+    }
+    .recent-header {
+        font-size: 1.45rem !important;
+    }
+    .fab, .fas {
+        font-size: 4.20rem !important;
+    }
+    #username {
+        font-size: 1.3rem !important;
+    }
+    p {
+        font-size: 1.25rem !important;
+    }
+    .hack-generator {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .fab, .fas {
+        font-size: 5rem !important;
+    }
+}
